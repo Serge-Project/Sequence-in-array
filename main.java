@@ -2,7 +2,7 @@ public class MyClass {
     public static void main(String args[]) {
      
         int array[] = {5, 1, 22, 25, 6, -1, 8, 10};
-        int sequence[] = {5, -1, 8};
+        int sequence[] = {5, -1, 22};
         int arr_length = array.length;
         int sequence_length = sequence.length;
         int temp = 0;
@@ -35,5 +35,6 @@ public class MyClass {
                     }
                 }
         }
+        System.out.println("False");
     }
 }
