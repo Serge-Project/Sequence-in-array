@@ -10,24 +10,24 @@ public class MyClass {
          
         for (int i = 0; i < arr_length; i++) {
                 if(array[i] == sequence[j]){
-                    System.out.println("i is: " + i + "  j is: " + j + " and We are in ONE           YESSSSSSSSSS");
+                    //System.out.println("i is: " + i + "  j is: " + j + " and We are in ONE           YESSSSSSSSSS");
                         // for(int x=0; x<j; x++){
                         //      System.out.println(sequence[x]);
                         // }
                         if(j == sequence_length-1){
-                             System.out.println(" Bingo ");
+                             System.out.println("True");
                              return;
                         }
                     j++;
                 }
                 else if( (i>0) && (array[i] == sequence[0]) ){
-                    System.out.println("i is: " + i + "   j is: " + j + " and We are in TWO ");
+                   // System.out.println("i is: " + i + "   j is: " + j + " and We are in TWO ");
                     //  System.out.println(" Found the first one in sequence again ");
                      j = 0;
                      j++;
                 }
                 else {
-                    System.out.println("i is: " + i + "  j is: " + j + " and We are in THREE ");
+                  //  System.out.println("i is: " + i + "  j is: " + j + " and We are in THREE ");
                     for (temp = 0; temp < sequence_length; temp++) {
                         if( (array[i] == sequence[temp]) && (temp < j) ){
                             j=0;
